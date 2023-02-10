@@ -3,7 +3,6 @@ const express = require("express");
 const connectDB = require("./config/db");
 
 
-console.log('asha kori kaaj korbe');
 //ewjfnweofn
 //connect db
 // test1
