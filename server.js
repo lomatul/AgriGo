@@ -3,6 +3,7 @@ const express = require("express");
 const connectDB = require("./config/db");
 
 //connect db
+// test1
 connectDB();
 
 const app = express();
