@@ -2,6 +2,8 @@ require('dotenv').config({path:"./config.env"});
 const express = require("express");
 const connectDB = require("./config/db");
 
+
+console.log('asha kori kaaj korbe');
 //ewjfnweofn
 //connect db
 connectDB();
