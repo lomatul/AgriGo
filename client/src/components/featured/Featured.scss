@@ -1,0 +1,103 @@
+.featured {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  // background-color: #013914;
+  background-image: url('./img/backpic.jpg');
+  color: white;
+
+
+
+  .container {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+
+    .background{
+      width: 1400px;
+      height: 680px;
+      object-fit: cover;
+      position:absolute;
+      }
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      width: 800px;
+      gap: 30px;
+      z-index: 100;
+      margin-top: 50px;
+      margin-left: 50px;
+
+      h1 {
+        font-size: 50px;
+
+        span {
+          font-style: italic;
+          font-weight: 300;
+        }
+      }
+
+      .search {
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+
+        .searchInput {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          img {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+          }
+
+          input {
+            border: none;
+            outline: none;
+
+            &::placeholder {
+              color: gray;
+            }
+          }
+        }
+
+        button {
+          width: 120px;
+          height: 50px;
+          border: none;
+          background-color: #062f1c;
+          color: white;
+          align-self: flex-end;
+          cursor: pointer;
+        }
+      }
+
+      .popular {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        span {
+          width: max-content;
+        }
+
+        button {
+          width: max-content;
+          color: white;
+          border: 1px solid white;
+          padding: 5px 10px;
+          border-radius: 20px;
+          background-color: transparent;
+          font-size: 14px;
+        }
+      }
+    }
+
+   
+  }
+}

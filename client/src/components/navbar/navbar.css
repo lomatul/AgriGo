@@ -1,0 +1,28 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: purple;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+}
+.header .logo {
+  color: aquamarine;
+}
+@media screen and (max-width: 768px) {
+  .header .navBar {
+    position: absolute;
+    background: rgb(231, 230, 154);
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    transition: 0.3s ease-in-out;
+  }
+}
