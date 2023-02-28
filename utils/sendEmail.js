@@ -26,7 +26,6 @@ const sendEmail = (options) => {
     html: options.text,
   };
 
-  console.log("hudai");
   transporter.sendMail(mailOptions, function (err, info) {
     if (err) {
       console.log(err);
