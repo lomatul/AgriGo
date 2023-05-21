@@ -1,6 +1,6 @@
 # COURSE TITLE: SOFTWARE PROJECT LAB-II :computer:
 # COURSE CODE: SWE 4404
-## PROJECT TITLE: AgriGo :package:
+## PROJECT TITLE: AgriGo :ear_of_rice:
 
 ## Current Phase :
 ```
@@ -27,42 +27,43 @@ DONE
 
 
 
-##  :sparkles: Brief Overview : 
+##  :ear_of_rice: Brief Overview : 
 ```
 There is no platform for agriculture producers and consumers to reach each other directly.
 A Business to Business (B2B) online platform that deals with the purchase and sale of wholesale agricultural produce.
  ```
 
 
- ##  :sparkles: CORE FEATURES : 
+ ##  :cherries: CORE FEATURES : 
  ```
  1. SEARCH
-  * If a product is on Sale
-  * Is a particular product on demand
+     :seedling: If a product is on Sale
+     :seedling: Is a particular product on demand
  
  ```
  
  ```
  2. RATING
-  * Rate a user after a transaction
+     :seedling: Rate a user after a transaction
  ```
  
  
  ```
  3. POST
-  * Buyers can post what they want to buy
-  * Seller can post what they want to sell
+     :seedling: Buyers can post what they want to buy
+     :seedling: Seller can post what they want to sell
  ```
  
  
  ```
  4. USER PROFILE
-  * Displays information about the user
+    :seedling: Displays information about the user
  ```
 
 
 
-## Setup
+## :hammer_and_wrench: Setup :
+
 ### Step 1: Clone project
 
 ```sh
