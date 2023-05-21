@@ -37,27 +37,27 @@ A Business to Business (B2B) online platform that deals with the purchase and sa
  ##  :cherries: CORE FEATURES : 
  ```
  1. SEARCH
-     :seedling: If a product is on Sale
-     :seedling: Is a particular product on demand
+     * If a product is on Sale
+     * Is a particular product on demand
  
  ```
  
  ```
  2. RATING
-     :seedling: Rate a user after a transaction
+     * Rate a user after a transaction
  ```
  
  
  ```
  3. POST
-     :seedling: Buyers can post what they want to buy
-     :seedling: Seller can post what they want to sell
+     *  Buyers can post what they want to buy
+     *  Seller can post what they want to sell
  ```
  
  
  ```
  4. USER PROFILE
-    :seedling: Displays information about the user
+     * Displays information about the user
  ```
 
 
