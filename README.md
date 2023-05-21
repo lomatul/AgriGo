@@ -1,30 +1,92 @@
-# Project README
+# COURSE TITLE: SOFTWARE PROJECT LAB-II :computer:
+# COURSE CODE: SWE 4404
+## PROJECT TITLE: AgriGo :package:
 
-## Requirements
-_The required bits and bobs of the project (e.g. CMS, Tailwind, etc.)_
+## Current Phase :
+```
+DONE
+```
 
-## Project Notes
-_Pertinent high-level information about the project_
+## Group Members :
+ #### Ayesha Afroza Mohsin  ID-200042106
+ #### Lomatul Mahzabin ID-200042113
+ #### Nawsheen Mehereen ID-200042134
+
+ 
+
+## :gear: :wrench: TECHNOLOGIES AND PLATFORMS :
+* :white_circle:  Platform   - Website Application
+* :white_circle:  Database   - ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+* :white_circle:  FrontEnd - ![React]([htte&logo=Ne&logoColor=brightgreen](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB))
+* :white_circle:  FrontEnd (CSS) - ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+* :white_circle:  FrontEnd (CSS) - ![JavaScript]([htte](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black))
+* :white_circle:  BackEnd  - ![Node.JS]([hor=white](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white))
+* :white_circle:  End (CSS) - ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+* :white_circle:  Version Control - ![Github](https://img.shields.io/badge/GitHub-108000?style=for-the-badge&logo=github&logoColor=white)
+
+
+
+
+
+##  :sparkles: Brief Overview : 
+```
+There is no platform for agriculture producers and consumers to reach each other directly.
+A Business to Business (B2B) online platform that deals with the purchase and sale of wholesale agricultural produce.
+ ```
+
+
+ ##  :sparkles: CORE FEATURES : 
+ ```
+ 1. SEARCH
+  * If a product is on Sale
+  * Is a particular product on demand
+ 
+ ```
+ 
+ ```
+ 2. RATING
+  * Rate a user after a transaction
+ ```
+ 
+ 
+ ```
+ 3. POST
+  * Buyers can post what they want to buy
+  * Seller can post what they want to sell
+ ```
+ 
+ 
+ ```
+ 4. USER PROFILE
+  * Displays information about the user
+ ```
+
 
 
 ## Setup
-_Steps for setting things up, particularly if for a CMS_
+### Step 1: Clone project
 
-## Front-end Compiling
-_Steps for front-end compiling_
+```sh
+git clone https://github.com/
+cd website
+```
 
-## Files & directories
-_List of key files and directories, how they're organized and used, etc._
+## Step 2: Open it in VSCode / any other Editor
 
-## Hacks/Kludges
 
-1. **Hack/kludge name**
-    Short description of what was done and why, including any reference links
+## Step 3: Install npm dependencies
 
-    - **When:** date
-    - **File(s):**
+```sh
+npm install
+```
+```sh
+yarn install
+```
 
-      - Line #N in `[path to file]`
-      - Line #N in `[path to file]`
-          
-    - **Database:** Note any changes to the database. If none, delete this line.
+## Step 4: Run AgriGo in server mode
+
+```sh
+make serve
+```
+
+
