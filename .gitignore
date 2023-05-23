@@ -6,8 +6,10 @@ node_modules/
 /.pnp
 .pnp.js
 
+
 # testing
 /coverage
+/testingBidd/
 
 # production
 /build
@@ -23,3 +25,5 @@ config.env
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+client/src/pages/userdashboard/userdashboard.jsx
+client/src/pages/userdashboard/userdashboard.scss
