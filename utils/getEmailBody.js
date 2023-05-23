@@ -1,0 +1,115 @@
+function getEmailBody(redirectLink, fullname) {
+  const emailBodyText = `<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Account Verification</title>
+        <style>
+          /* Set global styles */
+          html {
+            background-color: white;
+          }
+          
+          *,
+          *::before,
+          *::after {
+            margin: 0;
+            box-sizing: border-box;
+          }
+          
+          body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #f2f2f2;
+          }
+    
+          /* Container styles */
+          .container {
+            max-width: 50vw;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+          }
+    
+          /* Header styles */
+          .header {
+            text-align: center;
+            margin-bottom: 30px;
+          }
+    
+          .header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #333;
+          }
+    
+          /* Body content styles */
+          .content {
+            margin-bottom: 30px;
+          }
+    
+          .content p {
+            margin: 0 0 10px;
+          }
+    
+          /* Button styles */
+          .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+          }
+    
+          .button:hover {
+            background-color: #0062cc;
+          }
+    
+          /* Footer styles */
+          .footer {
+            text-align: center;
+          }
+    
+          .footer p {
+            margin: 0;
+            color: #666;
+            font-size: 14px;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="header">
+            <h1>Account Verification</h1>
+          </div>
+          <div class="content">
+            <p>Dear ${fullname},</p>
+            <p>Thank you for signing up with Agrigo, the premier platform for connecting buyers and sellers of agricultural products. To ensure the security of your account and enable full access to our features, we need to verify your email address.
+            <p>
+            Please click on the link below to verify your email and activate your account: 
+            </p>
+            <button >
+            <a href="${redirectLink}">Verify Account</a>
+            </button>
+            <p>If you did not sign up for Agrigo, please disregard this email.</p>
+            <p>Thank you for choosing Agrigo. We look forward to helping you find the best agricultural products for your business.</p>
+            <p>Best wishes, <br>The Agrigo Team</p>
+          </div>
+          <div class="footer">
+            <p>This is an automated email, please do not reply.</p>
+          </div>
+        </div>
+      </body>
+    </html>    
+    `;
+
+  return emailBodyText;
+}
+
+module.exports = getEmailBody;
